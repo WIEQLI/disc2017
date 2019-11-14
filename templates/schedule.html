@@ -127,7 +127,7 @@
                                     <p>
                                         <ul>
                                             <li>{{ where[loc]['time'] }}</li>
-                                            <li><a href="{{ where[loc]['venue_url'] }}">{{ where[loc]['venue'] }}</a></li>
+                                            <li>{{ where[loc]['venue'] }}</a>
                                             {% if where[loc]['additional'] is defined %}
                                                 {% for item in where[loc]['additional'] %}
                                                     <li>{{ item }}</li>
@@ -140,7 +140,7 @@
 
                                     {% if where[loc]['registration'] == 'open' %}
                                     <div class="row">
-                                        <div class="col-md-6 templatemo-box" align="center">
+                                        <div class="col-md-12 templatemo-box" align="center">
                                             {% if where[loc]['disc_registration_url'] is defined %}
                                             <a href="{{ where[loc]['disc_registration_url'] }}">
                                                 <div class="row">
@@ -156,7 +156,7 @@
                                             {% endif %}
                                         </div>
 
-                                        <div class="col-md-6 templatemo-box" align="center">
+                                        <!-- <div class="col-md-6 templatemo-box" align="center">
                                             {% if where[loc]['lab_registration_url'] is defined %}
                                             <a href="{{ where[loc]['lab_registration_url'] }}">
                                                 <div class="row">
@@ -170,7 +170,7 @@
                                                 </div>
                                             </a>
                                             {% endif %}
-                                        </div>
+                                        </div> -->
                                     </div>
                                     {% endif %}
 
@@ -225,7 +225,7 @@
                                     <p>
                                         <ul>
                                             <li>{{ where[loc]['time'] }}</li>
-                                            <li><a href="{{ where[loc]['venue_url'] }}">{{ where[loc]['venue'] }}</a></li>
+                                            <li>{{ where[loc]['venue'] }}</li>
                                             {% if where[loc]['additional'] is defined %}
                                                 {% for item in where[loc]['additional']%}
                                                     <li>{{ item }}</li>
@@ -238,7 +238,7 @@
 
                                     {% if where[loc]['registration'] == 'open' %}
                                     <div class="row">
-                                        <div class="col-md-6 templatemo-box" align="center">
+                                        <div class="col-md-12 templatemo-box" align="center">
                                             {% if where[loc]['disc_registration_url'] is defined %}
                                             <a href="{{ where[loc]['disc_registration_url'] }}">
                                                 <div class="row">
@@ -251,7 +251,7 @@
                                             {% endif %}
                                         </div>
 
-                                        <div class="col-md-6 templatemo-box" align="center">
+                                        <!-- <div class="col-md-6 templatemo-box" align="center">
                                             {% if where[loc]['lab_registration_url'] is defined %}
                                             <a href="{{ where[loc]['lab_registration_url'] }}">
                                                 <div class="row">
@@ -265,7 +265,7 @@
                                                 </div>
                                             </a>
                                             {% endif %}
-                                        </div>
+                                        </div> -->
                                     </div>
                                     {% endif %}
 

@@ -1,63 +1,119 @@
 {
-    "delft":{
-        "location": "Delft, Netherlands",
-        "date": "September 11 - 12, 2017",
-        "instructors": ["Doug Oldenburg", "Lindsey Heagy"],
+    "vancouver":{
+        "location": "Vancouver, Canada",
+        "date": "December 12-13, 2017",
         "time": "8AM-5PM",
-        "venue_url":"http://www.sciencecentre.tudelft.nl/",
-        "venue":"Mijnbouwstraat 120 2628 RX Delft, 03 Science Centre Delft, Location: 01.870 Room 2 MBS",
-        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2455.9893174937515!2d4.367312615788413!3d52.007072579720344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b5ec5e556b2b%3A0x39aa2bf66cfe633a!2sScience+Centre+Delft!5e0!3m2!1sen!2sca!4v1502981651470",
-        "disc_registration_url":"http://seg.org/shop/products/detail/17998296",
-        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSfuXz1_-MLV9D4woIfGQlXeeWtQqN0C5E41I4rsxgKwd6EC4w/viewform?usp=sf_link",
-        "registration": "open"
+        "venue_url":"http://robsonsquare.ubc.ca/",
+        "venue":"UBC Robson Square, 800 Robson Street, Room C 150/180",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.6656608087947!2d-123.1232847843106!3d49.282732179331354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486717fec4f633f%3A0xbc9df6183755b650!2sUBC+Robson+Square!5e0!3m2!1sen!2sca!4v1507514280167",
+        "disc_registration_url":"http://seg.org/shop/products/detail/20350247",
+        "registration": "closed",
+        "additional":[
+            "Co-organized with the <a href=\"http://www.bcgsonline.org\">BC Geophysical Society</a>",
+            "With sponsorship from <a href=\"http://www.teck.com/\">Teck Resources Limited</a>, <a href=\"http://discogeo.com/\">Discovery International Geophysics Inc</a>, <a href=\"https://www.golder.com/\">Golder Associates Ltd</a>, <a href=\"http://www.angloamerican.ca/ \">Anglo American Exploration (Canada) Ltd </a>, <a href=\"http://www.condorconsult.com/\">Condor Consulting Inc</a>, and <a href=\"https://www.sjgeophysics.com/\">SJ Geophysics Ltd</a>",
+            "The <a href=\"http://www.bcgsonline.org/uncategorized/bcgs-christmas-party/\">BCGS Christmas Party</a> will be held on December 12, following the course"
+        ],
+        "feedback_form": "https://docs.google.com/forms/d/e/1FAIpQLSeQGSocMr5Ex1OMVo0r2m0EZx2EIFgEZZSxQkI98jFWxd4Xwg/viewform?usp=sf_link"
     },
-    "bonn":{
-        "location": "Bonn, Germany",
-        "date": "September 18 - 19, 2017",
-        "instructors": ["Doug Oldenburg", "Lindsey Heagy"],
+    "calgary":{
+        "location": "Calgary, Canada",
+        "date": "December 5-6, 2017",
+        "time": "8AM-5PM",
+        "venue_url":"http://www.nexencnoocltd.com/",
+        "venue":"Nexen, 801 - 7th Avenue S.W.",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.35140752776!2d-114.08147948457409!3d51.04659887956207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716fe40d900ca9%3A0x5c7186d01c0cab30!2sNexen!5e0!3m2!1sen!2sca!4v1502641685985",
+        "disc_registration_url":"http://seg.org/shop/products/detail/20350197",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSdTb4hHFWGbdlqIutEp8QdaoTvb5Crk-P70wqrDaIDeEk1TYA/viewform?usp=sf_link",
+        "registration": "closed",
+        "feedback_form": "https://docs.google.com/forms/d/e/1FAIpQLSd_YMPfhMLGLKj_Z1HWjNS2gztuwqTXIqje17PCuOc6K9Cbdw/viewform?usp=sf_link"
+    },
+    "rio-de-janeiro":{
+        "location": "Rio de Janeiro, Brazil",
+        "date": "November 28-29, 2017",
         "time": "9AM-6PM",
-        "venue_url":"https://www.hrz.uni-bonn.de/de/services/internet-und-netzzugang/wlan/wlan-abdeckung/meckenheimer-allee-176",
-        "venue":"Meckenheimer Allee 176, Room 0.005",
-        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.737983033903!2d7.088311315741366!3d50.7247999795142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee19ad8fc653d%3A0x1e38d0c88dbfe808!2sMeckenheimer+Allee+176%2C+53115+Bonn%2C+Germany!5e0!3m2!1sen!2sca!4v1502557037460",
-        "disc_registration_url":"http://seg.org/shop/products/detail/20649473",
-        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLScAV0oLnh1kqV9fa5karZE7B-IP4LdqK5A6EDYNY8QEKA-pTw/viewform?usp=sf_link",
-        "registration": "open"
+        "venue_url":"https://www.sbgf.org.br/home/",
+        "venue":"SBGF Brazil",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29401.401592614908!2d-43.19485816239068!3d-22.90690788501169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f607c511d77%3A0xd777a5238650389b!2sSociedade+Brasileira+de+Geof%C3%ADsica!5e0!3m2!1sen!2sca!4v1502641371367",
+        "disc_registration_url":"http://seg.org/shop/products/detail/17228917",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSc1NJnj8fFpDtGswECmiZcxTxZWe_Qc_tluAyQMxuzqpDh32g/viewform?usp=sf_link",
+        "registration": "closed",
+        "additional":[
+            "if you are interested in attending but finances are a challenge, please <a href=\"/#contact\">get in touch</a>."
+        ],
+        "feedback_form":"https://docs.google.com/forms/d/e/1FAIpQLSdj0Kr3k9iINuw6o51J8CqPPykP6gXxVHiUhhYGC2PgvUkQxg/viewform?usp=sf_link"
     },
-    "vienna":{
-        "location": "Vienna, Austria",
-        "date": "September 21 - 22, 2017",
-        "instructors": ["Doug Oldenburg", "Lindsey Heagy"],
+    "santa-cruz-de-la-sierra":{
+        "location": "Santa Cruz de la Sierra, Bolivia",
+        "date": "November 22-23, 2017",
+        "time": "8AM-5PM",
+        "venue_url": "#santa-cruz-de-la-sierra",
+        "venue":"Venue TBA",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486366.9836485609!2d-63.292524001257334!3d-17.756788860092247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e81ca7c01a63%3A0x5c8b0a53a467611b!2sSanta+Cruz+de+la+Sierra%2C+Bolivia!5e0!3m2!1sen!2sca!4v1507492868338",
+        "disc_registration_url":"http://seg.org/shop/products/detail/25034321",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSfRiFkCuxGShekqRkaC2W6DRovoHiRYRCP63-6inCmVkFy2VQ/viewform?usp=sf_link",
+        "registration": "closed",
+        "additional":[
+            "CANCELLED"
+        ]
+    },
+    "santiago":{
+        "location": "Santiago, Chile",
+        "date": "November 16-17, 2017",
         "time": "9AM-6PM",
-        "venue_url":"https://www.geologie.ac.at/en/",
-        "venue":"Geological Survey of Austria, Neulinggasse 38, 1030",
-        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.3686961063027!2d16.383477150834622!3d48.19951387912644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07706af9f535%3A0x2382fe65537850cb!2sGeologische+Bundesanstalt!5e0!3m2!1sen!2sca!4v1500769105501",
-        "disc_registration_url":"http://seg.org/shop/products/detail/18070341",
-        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSdw98W0OxCNZMTia2NYd9VLxCIxqLs6TilfXhICLgVCu087-Q/viewform?usp=sf_link",
-        "registration": "open"
+        "venue_url": "#santiago",
+        "venue":"Room 101 of the AMTC, Tupper #2007, piso 4, Edificio AMTC, University of Chile. Public access to the University buildings is through Beauchef 850 (<a href=\"/s/assets/ubicacion.jpg\">map</a>)",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13314.627373340183!2d-70.67063833262753!3d-33.45824580529777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c504b371f42d%3A0xa59890ebc0542217!2sTupper+2007%2C+Santiago%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e0!3m2!1sen!2sar!4v1510578411060",
+        "disc_registration_url":"http://seg.org/shop/products/detail/22075455",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSeOwGIUGL8LJZylU50VL66TYagEtRRn-4_lEVt_wInPCEssHQ/viewform?usp=sf_link",
+        "registration": "closed",
+        "additional":[
+            "organized in partnership with <a href=\"http://www.amtc.cl/\">AMTC</a> and the <a href=\"http://www.uchile.cl/\">University of Chile</a>",
+            "if you are interested in attending but finances are a challenge, please <a href=\"/#contact\">get in touch</a>."
+        ],
+        "feedback_form":"https://docs.google.com/forms/d/e/1FAIpQLSe8wWcBMFjcGKkRH5K4_0ghs2Wc_4u5lWhll5whtBqkLqd6cg/viewform?usp=sf_link"
     },
-    "zurich":{
-        "location": "Zurich, Switzerland",
-        "date": "September 26 - 27, 2017",
-        "instructors": ["Doug Oldenburg", "Lindsey Heagy"],
-        "time": "8AM-5PM",
-        "venue_url":"https://www.ethz.ch/en.html",
-        "venue":"ETH Zurich, Room NO D45 at Sonneggstrasse 5, 8092 Zurich",
-        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.709849898547!2d8.545030015094245!3d47.3785812116957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa0a6ff9ea61d%3A0x1f5b9d5a645c1289!2sSonneggstrasse+5%2C+8006+Z%C3%BCrich%2C+Switzerland!5e0!3m2!1sen!2sca!4v1500788836228",
-        "disc_registration_url":"http://seg.org/shop/products/detail/17951920",
-        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSdloj8dRQZ2DWWvz2lnkk-2Q97UvKathmieD2Aj9Hpn24dW0A/viewform?usp=sf_link",
-        "registration": "open"
+    "buenos-aires":{
+        "location": "Buenos Aires, Argentina",
+        "date": "November 13-14, 2017",
+        "time": "9AM-6PM",
+        "venue_url":"http://www.pluspetrol.net/argentina/contacto.php",
+        "venue":"PLUSPETROL ARGENTINA, ubicado en Lima 339 CABA, Buenos Aires",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.676083982117!2d-58.38408398477004!3d-34.61235148045728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad0b52268ff%3A0xde5fd07d1e39abba!2sPluspetrol!5e0!3m2!1sen!2sch!4v1506683725207",
+        "disc_registration_url":"http://seg.org/shop/products/detail/24881114",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLScHZlGlGqeKAJIrc9VrDgH3iZ-vV2qVJm9K89fUJZO4JddkaA/viewform?usp=sf_link",
+        "registration": "closed",
+        "additional":[
+            "Co-organized with the <a href=\"http://aaggp.org.ar/\">Asociación Argentina de Geólogos y Geofísicos Petroleros (AAGGP)</a>",
+            "if you are interested in attending but finances are a challenge, please <a href=\"/#contact\">get in touch</a>."
+
+        ],
+        "feedback_form":"https://docs.google.com/forms/d/e/1FAIpQLScL0n__13CxfW0A353-dvUGLPaXM1adhjxW6qXbmwF6pOqM-Q/viewform?usp=sf_link"
     },
-    "aarhus":{
-        "location": "Aarhus, Denmark",
-        "date": "October 2 - 3, 2017",
-        "instructors": ["Doug Oldenburg", "Lindsey Heagy"],
-        "time": "8AM-5PM",
-        "venue_url":"#aarhus",
-        "venue":"Aarhus University, Room TBA",
-        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.361799153241!2d10.200823115656977!3d56.16813838066645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3fc7568e12d5%3A0xa0f65bbf8727eeb0!2sAarhus+University!5e0!3m2!1sen!2sca!4v1502560050439",
-        "disc_registration_url":"http://seg.org/shop/products/type/DISC",
-        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSdfp4uy33ksGHaU9Pe6KKJhsuRZb0W4CMpchkpytkDJUX3q4g/viewform?usp=sf_link",
-        "registration": "open"
+    "mexico-city":{
+        "location": "Mexico City, Mexico",
+        "date": "November 6-7, 2017",
+        "time": "9AM-6PM",
+        "venue_url":"http://www.torreingenieria.unam.mx/htm/cont1.html",
+        "venue":"Auditorium \"José Luis Sánchez Bribiesca\", Torre de Ingeniería, Instituto de Ingeniería, Ciudad Universitaria, 04510 CDMX",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.9129460193953!2d-99.18444758509493!3d19.32958348694297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0004665c085b%3A0xbfd5e87a82e7c376!2sTorre+de+Ingenier%C3%ADa%2C+UNAM!5e0!3m2!1sen!2sca!4v1502640649845",
+        "disc_registration_url":"http://seg.org/shop/products/detail/21058371",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSd2J791CVnc2F5VYWM2BtJovScqRjUMAESOcUnYVlzc5g_m6w/viewform?usp=sf_link",
+        "registration": "closed",
+        "additional":[
+            "if you are interested in attending but finances are a challenge, please <a href=\"/#contact\">get in touch</a>."
+        ],
+        "feedback_form":"https://docs.google.com/forms/d/e/1FAIpQLSeLjX8XYsA7Mmv_ohFmGRc_-3M2BeqjoIZoWWOJwsdGfdgnsg/viewform?usp=sf_link"
+    },
+    "colombia":{
+        "location": "Colombia: Live Stream",
+        "date": "November 6-7, 2017",
+        "time": "9AM-6PM",
+        "venue":"Live Stream Video",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16289936.574630875!2d-83.3979022997968!3d4.587688167377631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e15a43aae1594a3%3A0x9a0d9a04eff2a340!2sColombia!5e0!3m2!1sen!2sca!4v1509247695529",
+        "disc_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSc7T_drgwAbYuQaV51x8-xK8UkWuPsDnSaUT9xAIl2J9RTXpg/viewform?usp=sf_link",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSd2J791CVnc2F5VYWM2BtJovScqRjUMAESOcUnYVlzc5g_m6w/viewform?usp=sf_link",
+        "registration": "closed",
+        "feedback_form": "https://docs.google.com/forms/d/e/1FAIpQLSfB_UfkMFhlzGRSAIMnLW9l4BfljMfY0-GQqzwf3KtO2NlnOg/viewform?usp=sf_link"
     },
     "toronto":{
         "location": "Toronto, Canada",
@@ -72,40 +128,95 @@
             "For registration, please sign up for W12: SEG DISC 2017, EM Fundamentals and Applications - Full Day",
             "You do not need to register for the full conference to attend the DISC"
         ],
-        "registration": "open"
+        "registration": "closed",
+        "feedback_form": "https://docs.google.com/forms/d/e/1FAIpQLSd0LKGl5Pck01B39nvtq2DzyzlyHcOn41mV-Q3Y_3UR226PDQ/viewform?usp=sf_link"
     },
-    "mexico-city":{
-        "location": "Mexico City, Mexico",
-        "date": "November 6-7, 2017",
+    "aarhus":{
+        "location": "Aarhus, Denmark",
+        "date": "October 2 - 3, 2017",
+        "instructors": ["Doug Oldenburg", "Lindsey Heagy"],
         "time": "8AM-5PM",
-        "venue_url":"http://www.torreingenieria.unam.mx/htm/cont1.html",
-        "venue":"Auditorium \"José Luis Sánchez Bribiesca\", Torre de Ingeniería, Instituto de Ingeniería, Ciudad Universitaria, 04510 CDMX",
-        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.9129460193953!2d-99.18444758509493!3d19.32958348694297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0004665c085b%3A0xbfd5e87a82e7c376!2sTorre+de+Ingenier%C3%ADa%2C+UNAM!5e0!3m2!1sen!2sca!4v1502640649845",
-        "disc_registration_url":"http://seg.org/shop/products/detail/21058371",
-        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSd2J791CVnc2F5VYWM2BtJovScqRjUMAESOcUnYVlzc5g_m6w/viewform?usp=sf_link",
-        "registration": "open"
+        "venue_url":"http://geo.au.dk/en/",
+        "venue":"Room 1671-137, Geoscience Building, Aarhus University",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.361799153241!2d10.200823115656977!3d56.16813838066645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3fc7568e12d5%3A0xa0f65bbf8727eeb0!2sAarhus+University!5e0!3m2!1sen!2sca!4v1502560050439",
+        "disc_registration_url":"http://seg.org/shop/products/type/DISC",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSdfp4uy33ksGHaU9Pe6KKJhsuRZb0W4CMpchkpytkDJUX3q4g/viewform?usp=sf_link",
+        "registration": "closed",
+        "feedback_form": "https://docs.google.com/forms/d/e/1FAIpQLSc0K3h_6M3USKhV-CQA147nrqXz4cacdDvR54uFjp75CBivhA/viewform?usp=sf_link",
+        "appendices":[
+            {
+                "title":"All charged up",
+                "url":"https://storage.googleapis.com/simpeg/disc2017/adelaide/Appendix_all_chargedupAustralia.pdf"
+            }
+        ],
+        "blog":"https://medium.com/disc2017/aarhus-86beb3df02d5"
     },
-    "rio-de-janeiro":{
-        "location": "Rio de Janeiro, Brazil",
-        "date": "November 28-29, 2017",
+    "zurich":{
+        "location": "Zurich, Switzerland",
+        "date": "September 26 - 27, 2017",
+        "instructors": ["Doug Oldenburg", "Lindsey Heagy"],
         "time": "8AM-5PM",
-        "venue_url":"https://www.sbgf.org.br/home/",
-        "venue":"SBGF Brazil",
-        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29401.401592614908!2d-43.19485816239068!3d-22.90690788501169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f607c511d77%3A0xd777a5238650389b!2sSociedade+Brasileira+de+Geof%C3%ADsica!5e0!3m2!1sen!2sca!4v1502641371367",
-        "disc_registration_url":"http://seg.org/shop/products/detail/17228917",
-        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSc1NJnj8fFpDtGswECmiZcxTxZWe_Qc_tluAyQMxuzqpDh32g/viewform?usp=sf_link",
-        "registration": "open"
+        "venue_url":"https://www.ethz.ch/en.html",
+        "venue":"ETH Zurich, Room NO D45 at Sonneggstrasse 5, 8092 Zurich",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.709849898547!2d8.545030015094245!3d47.3785812116957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa0a6ff9ea61d%3A0x1f5b9d5a645c1289!2sSonneggstrasse+5%2C+8006+Z%C3%BCrich%2C+Switzerland!5e0!3m2!1sen!2sca!4v1500788836228",
+        "disc_registration_url":"http://seg.org/shop/products/detail/17951920",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSdloj8dRQZ2DWWvz2lnkk-2Q97UvKathmieD2Aj9Hpn24dW0A/viewform?usp=sf_link",
+        "registration": "closed",
+        "feedback_form": "https://docs.google.com/forms/d/e/1FAIpQLSc-ShB1nP1MOBY97S9jjdZj0STiOY5t8b8vcarveNj0FSrEDQ/viewform?usp=sf_link",
+        "blog":"https://medium.com/disc2017/zurich-359eeb9b4264"
     },
-    "calgary":{
-        "location": "Calgary, Canada",
-        "date": "December 5-6, 2017",
-        "time": "8AM-5PM",
-        "venue_url":"http://www.nexencnoocltd.com/",
-        "venue":"Nexen, 801 - 7th Avenue S.W.",
-        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.35140752776!2d-114.08147948457409!3d51.04659887956207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716fe40d900ca9%3A0x5c7186d01c0cab30!2sNexen!5e0!3m2!1sen!2sca!4v1502641685985",
-        "disc_registration_url":"http://seg.org/shop/products/detail/20350197",
-        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSdTb4hHFWGbdlqIutEp8QdaoTvb5Crk-P70wqrDaIDeEk1TYA/viewform?usp=sf_link",
-        "registration": "open"
+    "vienna":{
+        "location": "Vienna, Austria",
+        "date": "September 21 - 22, 2017",
+        "instructors": ["Doug Oldenburg", "Lindsey Heagy"],
+        "time": "9AM-6PM",
+        "venue_url":"https://www.geologie.ac.at/en/",
+        "venue":"Geological Survey of Austria, Neulinggasse 38, 1030",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.3686961063027!2d16.383477150834622!3d48.19951387912644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07706af9f535%3A0x2382fe65537850cb!2sGeologische+Bundesanstalt!5e0!3m2!1sen!2sca!4v1500769105501",
+        "disc_registration_url":"http://seg.org/shop/products/detail/18070341",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSdw98W0OxCNZMTia2NYd9VLxCIxqLs6TilfXhICLgVCu087-Q/viewform?usp=sf_link",
+        "registration": "closed",
+        "feedback_form": "https://docs.google.com/forms/d/e/1FAIpQLSe0DwYzuk-WKRZwuxUuyTH3oAbWzTyZkNkGfJ4_-cknmK8zNA/viewform?usp=sf_link",
+        "blog":"https://medium.com/disc2017/vienna-83a643acdf6a"
+    },
+    "bonn":{
+        "location": "Bonn, Germany",
+        "date": "September 18 - 19, 2017",
+        "instructors": ["Doug Oldenburg", "Lindsey Heagy"],
+        "time": "9AM-6PM",
+        "venue_url":"https://www.hrz.uni-bonn.de/de/services/internet-und-netzzugang/wlan/wlan-abdeckung/meckenheimer-allee-176",
+        "venue":"Meckenheimer Allee 176, Room 0.005",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.737983033903!2d7.088311315741366!3d50.7247999795142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee19ad8fc653d%3A0x1e38d0c88dbfe808!2sMeckenheimer+Allee+176%2C+53115+Bonn%2C+Germany!5e0!3m2!1sen!2sca!4v1502557037460",
+        "disc_registration_url":"http://seg.org/shop/products/detail/20649473",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLScAV0oLnh1kqV9fa5karZE7B-IP4LdqK5A6EDYNY8QEKA-pTw/viewform?usp=sf_link",
+        "registration": "closed",
+        "feedback_form": "https://docs.google.com/forms/d/e/1FAIpQLSc1xEqfh6Q9up7sopsQhHQi0YoAAiFskFrzmsy8YPm2qtUaMA/viewform?usp=sf_link",
+        "appendices":[
+            {
+                "title":"All charged up",
+                "url":"https://storage.googleapis.com/simpeg/disc2017/brisbane/Appendix_all_chargedupAustralia.pdf"
+            },
+            {
+                "title":"Inversion of Geophysical Data over TKC",
+                "url":"https://storage.googleapis.com/simpeg/disc2017/brisbane/Appendix_TKCrockmodel.pdf"
+            }
+
+        ],
+        "blog":"https://medium.com/disc2017/bonn-db0d592dbb32"
+    },
+    "delft":{
+        "location": "Delft, Netherlands",
+        "date": "September 11 - 12, 2017",
+        "instructors": ["Doug Oldenburg", "Lindsey Heagy"],
+        "time": "9AM-6PM",
+        "venue_url":"http://www.sciencecentre.tudelft.nl/",
+        "venue":"Mijnbouwstraat 120 2628 RX Delft, 03 Science Centre Delft, Location: 01.870 Room 2 MBS",
+        "map_url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2455.9893174937515!2d4.367312615788413!3d52.007072579720344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b5ec5e556b2b%3A0x39aa2bf66cfe633a!2sScience+Centre+Delft!5e0!3m2!1sen!2sca!4v1502981651470",
+        "disc_registration_url":"http://seg.org/shop/products/detail/17998296",
+        "lab_registration_url":"https://docs.google.com/forms/d/e/1FAIpQLSfuXz1_-MLV9D4woIfGQlXeeWtQqN0C5E41I4rsxgKwd6EC4w/viewform?usp=sf_link",
+        "registration": "closed",
+        "feedback_form": "https://docs.google.com/forms/d/e/1FAIpQLSfVZzTUbtJXwkteoOq9-oVR0MCwJpBrRWKGxk20PTG3TbYnoA/viewform?usp=sf_link",
+        "blog":"https://medium.com/disc2017/delft-c98d63e413c1"
     },
     "brisbane":{
         "location": "Brisbane, Australia",

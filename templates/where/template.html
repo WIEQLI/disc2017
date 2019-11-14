@@ -62,6 +62,12 @@
                             </h3>
                         </div>
 
+                        <div class="row">
+                            <h4>
+                                {{ time }}
+                            </h4>
+                        </div>
+
                         <!-- <br> -->
 
                         {% if instructors is defined %}
@@ -94,6 +100,7 @@
 
                         <br>
 
+
                     </div>
                 </div>
             </section>
@@ -103,91 +110,109 @@
             <!-- begin coursematerials -->
             <section id="coursematerials">
 
-                <div class="container">
+          <!--       <div class="container">
                     <div class="row" align="center">
                         <br>
                         <h3>Course Materials</h3>
                         <br>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5 templatemo-box"></div>
-                        <div class="col-md-3 templatemo-box">
+                        <!--  -->
+                    <!-- </div> -->
+                        <!-- <div class="col-md-2 templatemo-box"></div> -->
+                        <div class="col-md-6 templatemo-box">
+                            <div class="row" align="left">
+                                <br>
+                                <h3>Course Materials</h3>
+                                <br>
+                            </div>
                             <div class="row" align="center" id="course-materials">
-                                <ul>
-                                    <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/0_Introduction.pdf">Introduction</a></li>
-                                    <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/1_dc_slides.pdf">DC Resistivity</a></li>
-                                    <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/2_EM_fundamentals.pdf">EM Fundamentals</a></li>
-                                    <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/3_EM_inductive_sources.pdf">Inductive Sources</a></li>
-                                    <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/4_EM_grounded_sources.pdf">Grounded Sources</a></li>
-                                    <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/5_EM_natural_sources.pdf">Natural Sources</a></li>
-                                    <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/6_GPR.pdf">Ground Penetrating Radar</a></li>
-                                    <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/7_Induced_polarization.pdf">Induced Polarization</a></li>
-                                    <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/8_future.pdf">The Future</a></li>
-                                </ul>
+                                <div class="col-md-1"></div>
+                                <div class="col-md-11">
+                                    <ul>
+                                        <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/0_Introduction.pdf">Introduction</a></li>
+                                        <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/1_dc_slides.pdf">DC Resistivity</a></li>
+                                        <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/2_EM_fundamentals.pdf">EM Fundamentals</a></li>
+                                        <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/3_EM_inductive_sources.pdf">Inductive Sources</a></li>
+                                        <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/4_EM_grounded_sources.pdf">Grounded Sources</a></li>
+                                        <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/5_EM_natural_sources.pdf">Natural Sources</a></li>
+                                        <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/6_GPR.pdf">Ground Penetrating Radar</a></li>
+                                        <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/7_Induced_polarization.pdf">Induced Polarization</a></li>
+                                        <li><a href="https://storage.googleapis.com/simpeg/disc2017/{{ name }}/8_future.pdf">The Future</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            {% if appendices is defined %}
+                            <div class="container">
+                                <div class="row" align="left">
+                                    <br>
+                                    <h3>Additional Materials</h3>
+                                    <br>
+                                </div>
+                            </div>
+
+                                <div class="row">
+                                    <div class="col-md-1 templatemo-box"></div>
+                                    <div class="col-md-11 templatemo-box">
+                                        <div class="row" align="center" id="additional-materials">
+                                            <ul>
+                                                {% for appendix in appendices %}
+                                                    <li><a href=" {{ appendix['url'] }} ">{{ appendix['title'] }}</a></li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+
+                            <br>
+
+                            <div class="row">
+                                <div class="col-md-6 templatemo-box">
+                                    <a href="http://em.geosci.xyz">
+                                        <div class="row">
+                                            <strong>em.geosci.xyz</strong>
+                                        </div>
+                                        <div class="row">
+                                            <i class="fa fa-book" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 templatemo-box">
+                                    <a href="https://notebooks.azure.com/lheagy/libraries/em_apps">
+                                        <strong>apps</strong>
+                                        <div class="row">
+                                            <i class="fa fa-sliders" aria-hidden="true"></i>
+                                         </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4 templatemo-box"></div>
-                    </div>
-                </div>
 
-                {% if appendices is defined %}
-                <div class="container">
-                    <div class="row" align="center">
-                        <br>
-                        <h3>Additional Materials</h3>
-                        <br>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5 templatemo-box"></div>
-                        <div class="col-md-3 templatemo-box">
-                            <div class="row" align="center" id="additional-materials">
-                                <ul>
-                                    {% for appendix in appendices %}
-                                        <li><a href=" {{ appendix['url'] }} ">{{ appendix['title'] }}</a></li>
-                                    {% endfor %}
-                                </ul>
+                        <div class="col-md-6 templatemo-box">
+                            <div class="row" align="center">
+                                <br>
+                                <h3>Location</h3>
+                                <br>
+                            </div>
+                            <div class="row" align="center">
+                                {{ venue }}
+                                <br>
+                            </div>
+                            <br>
+                            <div class="row" align="center">
+                                <iframe src="{{ map_url }}" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
                         </div>
-                        <div class="col-md-4 templatemo-box"></div>
-                    </div>
-                </div>
-                </div>
-                {% endif %}
-
-                <div class="container">
-                    <br>
-                    <div class="row" align="center">
-
-                         <div class="col-md-3 templatemo-box"></div>
-                            <!-- <div class="col-md-3 templatemo-box"></div> -->
-                        <div class="col-md-3 templatemo-box">
-                            <a href="http://em.geosci.xyz">
-                                <div class="row">
-                                    <strong>em.geosci.xyz</strong>
-                                </div>
-                                <div class="row">
-                                    <i class="fa fa-book" aria-hidden="true"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 templatemo-box">
-                            <a href="https://notebooks.azure.com/library/em_apps">
-                                <strong>apps</strong>
-                                <div class="row">
-                                    <i class="fa fa-sliders" aria-hidden="true"></i>
-                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 templatemo-box"></div>
 
                     </div>
                 </div>
+
+
 
             </section>
             <!-- end coursematerials -->
