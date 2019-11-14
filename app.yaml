@@ -18,7 +18,7 @@ handlers:
   secure: always
 
 - url: .*
-  script: disc2017.app
+  script: geosci-courses.app
   secure: always
 
 skip_files:

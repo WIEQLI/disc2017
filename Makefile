@@ -1,5 +1,5 @@
-PORT=9089
-ADMIN_PORT=8019
+PORT=9088
+ADMIN_PORT=8018
 
 .PHONY: build symlinks run
 
